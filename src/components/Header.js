@@ -8,3 +8,10 @@ import {
 } from 'react-native'
 import icon from '../../assets/imgs/icon.png'
 
+class Header extends Component {
+    render() {
+        return (
+            
+        )
+    }
+}
