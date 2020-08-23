@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "lambe-tvOS.app"
-               BlueprintName = "lambe-tvOS"
-               ReferencedContainer = "container:lambe.xcodeproj">
+               BuildableName = "socialUp-tvOS.app"
+               BlueprintName = "socialUp-tvOS"
+               ReferencedContainer = "container:socialUp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "lambe-tvOSTests.xctest"
-               BlueprintName = "lambe-tvOSTests"
-               ReferencedContainer = "container:lambe.xcodeproj">
+               BuildableName = "socialUp-tvOSTests.xctest"
+               BlueprintName = "socialUp-tvOSTests"
+               ReferencedContainer = "container:socialUp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -61,9 +61,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "lambe-tvOSTests.xctest"
-               BlueprintName = "lambe-tvOSTests"
-               ReferencedContainer = "container:lambe.xcodeproj">
+               BuildableName = "socialUp-tvOSTests.xctest"
+               BlueprintName = "socialUp-tvOSTests"
+               ReferencedContainer = "container:socialUp.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "lambe-tvOS.app"
-            BlueprintName = "lambe-tvOS"
-            ReferencedContainer = "container:lambe.xcodeproj">
+            BuildableName = "socialUp-tvOS.app"
+            BlueprintName = "socialUp-tvOS"
+            ReferencedContainer = "container:socialUp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "lambe-tvOS.app"
-            BlueprintName = "lambe-tvOS"
-            ReferencedContainer = "container:lambe.xcodeproj">
+            BuildableName = "socialUp-tvOS.app"
+            BlueprintName = "socialUp-tvOS"
+            ReferencedContainer = "container:socialUp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -113,9 +113,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "lambe-tvOS.app"
-            BlueprintName = "lambe-tvOS"
-            ReferencedContainer = "container:lambe.xcodeproj">
+            BuildableName = "socialUp-tvOS.app"
+            BlueprintName = "socialUp-tvOS"
+            ReferencedContainer = "container:socialUp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

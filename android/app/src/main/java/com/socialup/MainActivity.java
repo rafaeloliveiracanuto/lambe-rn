@@ -1,4 +1,4 @@
-package com.lambe;
+package com.socialup;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "lambe";
+        return "socialUp";
     }
 }
