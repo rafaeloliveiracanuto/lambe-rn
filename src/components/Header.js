@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
         color: '#000',
         fontFamily: 'Shelter',
         height: 34,
-        fontSize: 32
+        fontSize: 32,
     }
 })
 
