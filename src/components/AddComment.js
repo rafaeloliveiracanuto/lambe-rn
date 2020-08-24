@@ -12,10 +12,29 @@ import Icon from 'react-native-vector-icons/FontAwesome'
 class AddComment extends Component {
     state = {
         comment: '',
-        askComment: true,
+        editMode: false
     }
 
     handleAddComment = () => {
         Alert.alert('Added!', this.state.comment)
+    }
+
+    render() {
+        let commentArea = null
+
+        if (this.state.editMode) {
+            commentArea = (
+                <View style={styles.container}>
+                    <TextInput placeholder='You can comment...'
+                        style={styles.input} autoFocus={true}
+                        value={this.state.comment}
+                        onChangeText={comment => this.setState({ comment })}
+                        onSubmitEditing={this.handleAddComment} />
+                    <TWF onPress={() => this.setState({ editMode: false })}>
+                        <Icon name='times' size={15} color='#555' />
+                    </TWF>
+                </View>
+            )
+        }
     }
 }
