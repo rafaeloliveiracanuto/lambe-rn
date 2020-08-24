@@ -21,7 +21,7 @@ class Feed extends Component {
             id: Math.random(),
             nickname: 'Philosophy Student',
             email: 'philosophyStudent@gmail.com',
-            image: require('../../assets/imgs;bw.jpg'),
+            image: require('../../assets/imgs/bw.jpg'),
             comments: []
         }]
     }
