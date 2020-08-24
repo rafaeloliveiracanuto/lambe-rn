@@ -36,7 +36,9 @@ const styles  = StyleSheet.create({
     },
     commentContainer: {
         flexDirection: 'row',
-        marginTop: 5
+        marginTop: 5,
+        width: '90%',
+        flexWrap: 'wrap'
     },
     nickname: {
         marginLeft: 5,
