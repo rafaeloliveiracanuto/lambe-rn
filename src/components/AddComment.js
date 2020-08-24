@@ -35,6 +35,17 @@ class AddComment extends Component {
                     </TWF>
                 </View>
             )
+        } else {
+            commentArea = (
+                <TWF onPress={() => this.setState({ editMode: true })}>
+                    <View style={styles.container}>
+                        <Icon name='comment-o' size={25} color='#555' />
+                        <Text style={styles.caption}>
+                            Add a comment...
+                        </Text>
+                    </View>
+                </TWF>
+            )
         }
     }
 }
