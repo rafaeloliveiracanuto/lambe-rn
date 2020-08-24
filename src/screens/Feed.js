@@ -15,7 +15,7 @@ class Feed extends Component {
                 comment: 'Very competitive!'
             }, {
                 nickname: 'Karl Marx',
-                comment: 'Beautiful photo! Can you share with me?'
+                comment: 'Can you share this photo with me?'
             }]
         }, {
             id: Math.random(),
