@@ -47,5 +47,12 @@ class AddComment extends Component {
                 </TWF>
             )
         }
+
+        return (
+            <View style={{ flex: 1 }}>
+                {commentArea}
+            </View>
+        )
     }
 }
+
