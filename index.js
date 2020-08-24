@@ -1,8 +1,5 @@
-/** @format */
-
-import {AppRegistry} from 'react-native';
-import App from './App';
+import {AppRegistry} from 'react-native'
 import Feed from './src/screens/Feed'
-import {name as appName} from './app.json';
+import {name as appName} from './app.json'
 
-AppRegistry.registerComponent(appName, () => Feed);
+AppRegistry.registerComponent(appName, () => Feed)
