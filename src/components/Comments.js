@@ -47,3 +47,5 @@ const styles  = StyleSheet.create({
         color: '#555'
     }
 })
+
+export default Comments
