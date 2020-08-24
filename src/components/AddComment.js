@@ -56,3 +56,19 @@ class AddComment extends Component {
     }
 }
 
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        flexDirection: 'row',
+        alignItems: 'center',
+        marginTop: 10
+    }, 
+    caption: {
+        marginLeft: 10,
+        fontSize: 12,
+        color: '#CCC'
+    },
+    input: {
+        width: '90%'
+    }
+})
