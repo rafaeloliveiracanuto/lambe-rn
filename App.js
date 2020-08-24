@@ -6,11 +6,11 @@ import Post from './src/components/Post'
 export default class App extends Component {
     render() {
         const comments = [{
-            nickname: 'Rafael Oliveira Canuto',
+            nickname: 'Rafael Canuto',
             comment: 'Incredible photo! It deserves much more than I can imagine!'
         }, {
             nickname: 'Leafar Otunac',
-            comment: 'Not bad, but I think you can do much better than this.'
+            comment: 'Not bad, but I think you can do better than this.'
         }]
 
         return (
