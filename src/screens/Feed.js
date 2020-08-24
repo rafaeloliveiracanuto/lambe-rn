@@ -25,4 +25,16 @@ class Feed extends Component {
             comments: []
         }]
     }
+
+    render() {
+        return (
+            <View style={styles.container}>
+                <Header />
+                <FlatList data={this.state.posts}
+                    keyExtractor={item => `${item.id}`}
+                    renderItem={({ item }) => 
+                        <Post key={item.id} {...item} />} />
+            </View>
+        )
+    }
 }
