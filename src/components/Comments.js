@@ -7,3 +7,8 @@ import {
     Alert
 } from 'react-native'
 
+class Comments extends Component {
+    render() {
+        
+    }
+}
