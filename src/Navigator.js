@@ -1,5 +1,5 @@
 import React from 'react'
-import { createBottomNavigator } from 'react-navigation'
+import { createBottomNavigator, createBottomTabNavigator } from 'react-navigation'
 import Icon from 'react-native-vector-icons/FontAwesome'
 import Feed from './screens/Feed'
 
@@ -40,3 +40,4 @@ const MenuConfig = {
     }
 }
 
+const MenuNavigator = createBottomTabNavigator(MenuRoutes, MenuConfig)
