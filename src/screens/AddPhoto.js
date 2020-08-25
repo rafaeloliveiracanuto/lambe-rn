@@ -20,7 +20,19 @@ class AddPhoto extends Component {
     }
 
     pickImage = () => {
+        ImagePicker.showImagePicker({
+            title: 'Choose an image',
+            maxHeight: 600,
+            maxWidth: 800
+        }, res => {
+            if (!res.didCancel) {
+                this.setState({ image: { uri: res.uri, base64: res.data } })
+            }
+        })
+    }
 
+    save = async () => {
+        
     }
 
     
