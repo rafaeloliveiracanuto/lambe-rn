@@ -32,3 +32,11 @@ const MenuRoutes = {
         }
     },
 }
+
+const MenuConfig = {
+    initialRouteName: 'Feed',
+    tabBarOptions: {
+        showLabel: false,
+    }
+}
+
