@@ -13,4 +13,14 @@ const MenuRoutes = {
                 <Icon name='home' size={30} color={tintColor} />
         }
     },
+    Add: {
+        name: 'AddPhoto',
+        screen: Feed,
+        navigationOptions: {
+            title: 'Add Picture',
+            tabBarIcon: ({ tintColor }) =>
+                <Icon name='camera' size={30} color={tintColor} />
+        }
+    },
+    
 }
