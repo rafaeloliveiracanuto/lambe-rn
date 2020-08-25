@@ -13,3 +13,15 @@ import {
 } from 'react-native'
 import ImagePicker from 'react-native-image-picker'
 
+class AddPhoto extends Component {
+    state = {
+        image: null,
+        comment: '',
+    }
+
+    pickImage = () => {
+
+    }
+
+    
+}
