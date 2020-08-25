@@ -22,5 +22,13 @@ const MenuRoutes = {
                 <Icon name='camera' size={30} color={tintColor} />
         }
     },
-    
+    Profile: {
+        name: 'Profile',
+        screen: Feed,
+        navigationOptions: {
+            title: 'Profile',
+            tabBarIcon: ({ tintColor }) =>
+                <Icon name='user' size={30} color={tintColor} />
+        }
+    },
 }
