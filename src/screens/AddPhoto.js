@@ -32,7 +32,13 @@ class AddPhoto extends Component {
     }
 
     save = async () => {
-        
+        Alert.alert('Image added', this.state.comment)
+    }
+
+    render() {
+        return (
+            
+        )
     }
 
     
