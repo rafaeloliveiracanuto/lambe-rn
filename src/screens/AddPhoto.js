@@ -56,6 +56,8 @@ class AddPhoto extends Component {
             </ScrollView>
         )
     }
-
-    
 }
+
+const styles = StyleSheet.create({
+        
+})
