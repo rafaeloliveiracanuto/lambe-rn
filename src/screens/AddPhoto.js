@@ -37,7 +37,23 @@ class AddPhoto extends Component {
 
     render() {
         return (
-            
+            <ScrollView>
+                <View style={styles.container}>
+                    <Text style={styles.title}>Share an image</Text>
+                    <View style={styles.imageContainer}>
+                        <Image source={this.state.image} style={styles.image} />
+                    </View>
+                </View>
+                <TouchableOpacity onPress={this.pickImage} style={styles.button}>
+                    <Text style={styles.buttonText}>Choose the photo</Text>
+                </TouchableOpacity>
+                <TextInput placeholder='Any comment to the photo?'
+                    style={styles.input} value={this.state.comment}
+                    onChangeText={comment => this.setState({ comment })} />
+                <TouchableOpacity onPress={this.save} style={styles.button}>
+                    <Text style={styles.buttonText}>Save</Text>
+                </TouchableOpacity>
+            </ScrollView>
         )
     }
 
