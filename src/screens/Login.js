@@ -14,6 +14,12 @@ class Login extends Component {
     }
 
     login = () => {
-        
+        this.props.navigate('Profile')
+    }
+
+    render() {
+        return (
+            
+        )
     }
 }
