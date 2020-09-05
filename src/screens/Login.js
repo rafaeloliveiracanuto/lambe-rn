@@ -8,5 +8,12 @@ import {
 } from 'react-native'
 
 class Login extends Component {
-    
+    state = {
+        email: '',
+        password: ''
+    }
+
+    login = () => {
+        
+    }
 }
