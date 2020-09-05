@@ -27,6 +27,12 @@ class Login extends Component {
                 <TextInput placegolder='Password' style={styles.input}
                     secureTextEntry={true} value={this.state.password}
                     onChangeText={password => this.setState({ password })} />
+                <TouchableOpacity onPress={this.login} style={styles.button}>
+                    <Text style={styles.buttonText}>Login</Text>
+                </TouchableOpacity>
+                <TouchableOpacity onPress={() => {}} style={styles.button}>
+                    <Text style={styles.buttonText}>Create new account</Text>
+                </TouchableOpacity>
             </View>
         )
     }
