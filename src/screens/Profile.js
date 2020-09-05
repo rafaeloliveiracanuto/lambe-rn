@@ -52,3 +52,5 @@ const styles = StyleSheet.create({
         color: '#FFF'
     }
 })
+
+export default Profile
