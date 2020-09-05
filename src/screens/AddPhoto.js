@@ -48,7 +48,7 @@ class AddPhoto extends Component {
                 <TouchableOpacity onPress={this.pickImage} style={styles.button}>
                     <Text style={styles.buttonText}>Choose the photo</Text>
                 </TouchableOpacity>
-                <TextInput placeholder='Any comment to the photo?'
+                <TextInput placeholder='Do you have any comment to the photo?'
                     style={styles.input} value={this.state.comment}
                     onChangeText={comment => this.setState({ comment })} />
                 <TouchableOpacity onPress={this.save} style={styles.button}>
@@ -84,7 +84,10 @@ const styles = StyleSheet.create({
         resizeMode: 'center'
     },
     button: {
-        marginTop: 30,
+        width: '50%',
+        alignItems: 'center',
+        alignSelf: 'center',
+        marginTop: 20,
         padding: 10,
         backgroundColor: '#4286f4'
     },
@@ -94,7 +97,8 @@ const styles = StyleSheet.create({
     },
     input: {
         marginTop: 20,
-        width: '90%'
+        width: '75%',
+        alignSelf: 'center',
     }
 })
 
