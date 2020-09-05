@@ -62,3 +62,5 @@ const styles = StyleSheet.create({
         borderColor: '#333',
     }
 })
+
+export default Login
