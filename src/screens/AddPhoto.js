@@ -22,7 +22,7 @@ class AddPhoto extends Component {
     pickImage = () => {
         ImagePicker.showImagePicker({
             title: 'Choose an image',
-            maxHeight: 600,
+            maxHeight: 800,
             maxWidth: 800
         }, res => {
             if (!res.didCancel) {
@@ -36,6 +36,7 @@ class AddPhoto extends Component {
     }
 
     render() {
+        
         return (
             <ScrollView>
                 <View style={styles.container}>
@@ -58,6 +59,9 @@ class AddPhoto extends Component {
     }
 }
 
+const width = Dimensions.get('window').width
+const height = Dimensions.get('window').height
+
 const styles = StyleSheet.create({
     container: {
         flex: 1,
@@ -70,13 +74,13 @@ const styles = StyleSheet.create({
     },
     imageContainer: {
         width: '90%',
-        height: Dimensions.get('window').width * 2,
+        height: height * 0.53,
         backgroundColor: '#EEE',
         marginTop: 10
     },
     image: {
-        width: Dimensions.get('window').width,
-        height: Dimensions.get('window').width * 2,
+        width: width * 0.9,
+        height: height * 0.53,
         resizeMode: 'center'
     },
     button: {
