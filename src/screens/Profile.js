@@ -8,6 +8,16 @@ class Profile extends Component {
     }
 
     render() {
-        
+        const options = { email: 'rafael@gmail.com', secure: true }
+        return (
+            <View style={styles.container}>
+                <Gravatar options={options} style={styles.avatar} />
+                <Text style={styles.nickname}>Rafael Creator</Text>
+                <Text style={styles.email}>rafael@gmail.com</Text>
+                <TouchableOpacity onPress={this.logout} style={styles.button}>
+                    <Text style={styles.buttonText}>Logout</Text>
+                </TouchableOpacity>
+            </View>
+        )
     }
 }
