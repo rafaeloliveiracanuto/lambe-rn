@@ -6,3 +6,11 @@ import {
     TouchableOpacity,
     TextInput
 } from 'react-native'
+
+class Register extends Component {
+    state = {
+        name: '',
+        email: '',
+        password: ''
+    }
+}
