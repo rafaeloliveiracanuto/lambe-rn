@@ -26,6 +26,9 @@ class Register extends Component {
                 <TextInput placeholder='Password' style={styles.input}
                     secureTextEntry={true} value={this.state.password}
                     onChangeText={password => this.setState({ password })} />
+                <TouchableOpacity onPress={() => {}} style={styles.button}>
+                    <Text style={styles.buttonText}>Save</Text>
+                </TouchableOpacity>
             </View>
         )
     }
