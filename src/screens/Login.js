@@ -24,7 +24,7 @@ class Login extends Component {
                     autoFocus={true} keyboardType='email-address'
                     value={this.state.email}
                     onChangeText={email => this.setState({ email })} />
-                <TextInput placegolder='Password' style={styles.input}
+                <TextInput placeholder='Password' style={styles.input}
                     secureTextEntry={true} value={this.state.password}
                     onChangeText={password => this.setState({ password })} />
                 <TouchableOpacity onPress={this.login} style={styles.button}>
