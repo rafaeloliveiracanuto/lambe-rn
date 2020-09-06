@@ -59,3 +59,5 @@ const styles = StyleSheet.create({
         paddingLeft: 15
     }
 })
+
+export default Register
