@@ -11,6 +11,7 @@ import {
 
 class Login extends Component {
     state = {
+        name: 'Temporary',
         email: '',
         password: ''
     }
@@ -67,4 +68,9 @@ const styles = StyleSheet.create({
     }
 })
 
-export default Login
+const mapDispatchToProps = dispatch => {
+    return {
+        onLogin: user => dispatch(login(user))
+    }
+}
+
