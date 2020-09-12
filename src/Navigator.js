@@ -29,7 +29,7 @@ const loginOrProfileRouter = createSwitchNavigator({
     Profile: Profile,
     Auth: authRouter
 }, {
-    initialRouteName: 'Profile'
+    initialRouteName: 'Auth'
 })
 
 const MenuRoutes = {
