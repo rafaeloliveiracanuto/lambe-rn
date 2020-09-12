@@ -64,7 +64,9 @@ const mapStateToProps = ({ user }) => {
 }
 
 const mapDispatchToProps = dispatch => {
-    
+    return {
+        onLogout: () => dispatch(logout())
+    }
 }
 
 export default Profile
