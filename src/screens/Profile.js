@@ -63,6 +63,8 @@ const mapStateToProps = ({ user }) => {
     }
 }
 
-
+const mapDispatchToProps = dispatch => {
+    
+}
 
 export default Profile
