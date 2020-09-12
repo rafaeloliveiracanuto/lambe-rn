@@ -56,4 +56,8 @@ const styles = StyleSheet.create({
     }
 })
 
+const mapStateToProps = ({ user }) => {
+    
+}
+
 export default Profile
