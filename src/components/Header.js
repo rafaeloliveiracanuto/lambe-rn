@@ -23,7 +23,10 @@ class Header extends Component {
                     <Image source={icon} style={styles.image} />
                     <Text style={styles.title}>Social Up!</Text>
                 </View>
-                
+                <View style={styles.userContainer}>
+                    <Text style={styles.user}>{name}</Text>
+                    {gravatar}
+                </View>
             </View>
         )
     }
