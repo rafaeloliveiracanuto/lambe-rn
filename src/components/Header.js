@@ -38,7 +38,9 @@ const styles = StyleSheet.create({
         padding: 10,
         borderBottomWidth: 1,
         borderColor: '#BBB',
-        width: '100%'
+        width: '100%',
+        flexDirection: 'row',
+        justifyContent: 'space-between'
     },
     rowContainer: {
         flexDirection: 'row',
@@ -54,6 +56,19 @@ const styles = StyleSheet.create({
         fontFamily: 'Shelter',
         height: 34,
         fontSize: 32,
+    },
+    userContainer: {
+        flexDirection: 'row',
+        alignItems: 'center',
+    },
+    user: {
+        fontSize: 10,
+        color: '#888',
+    },
+    avatar: {
+        width: 30,
+        height: 30,
+        marginLeft: 10
     }
 })
 
