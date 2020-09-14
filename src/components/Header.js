@@ -72,6 +72,14 @@ const styles = StyleSheet.create({
     }
 })
 
+const mapStateToProps = state => {
+    const { user } = state
+    return {
+        email: user.email,
+        name: user.name
+    }
+}
+
 export default Header
 
 
