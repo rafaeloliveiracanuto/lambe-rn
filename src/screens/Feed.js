@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
 })
 
 const mapStateToProps = state => {
-    const { posts } = state.posts
+    const posts = state.posts
 
     return {
         posts: posts.posts
