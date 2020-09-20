@@ -27,11 +27,12 @@ const styles = StyleSheet.create({
     }
 })
 
-//export default Feed
-
 const mapStateToProps = state => {
     const { posts } = state.posts
+
     return {
         posts: posts.posts
     }
 }
+
+export default connect(mapStateToProps)(Feed)
