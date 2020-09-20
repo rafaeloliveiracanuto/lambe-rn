@@ -116,4 +116,8 @@ const styles = StyleSheet.create({
     }
 })
 
-export default AddPhoto
+//export default AddPhoto
+
+const mapStateToProps = state => {
+    
+}
