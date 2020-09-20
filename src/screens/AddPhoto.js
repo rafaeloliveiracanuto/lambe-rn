@@ -131,3 +131,5 @@ const mapDispatchToProps = dispatch => {
         onAddPost: post => dispatch(addPost(post))
     }
 }
+
+export default connect(mapStateToProps, mapDispatchToProps)(AddPhoto)
