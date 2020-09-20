@@ -125,3 +125,7 @@ const mapStateToProps = state => {
         name: user.name
     }
 }
+
+const mapDispatchToProps = dispatch => {
+    
+}
