@@ -44,6 +44,9 @@ class AddPhoto extends Component {
                 comment: this.state.comment
             }]
         })
+
+        this.setState({ image: null, commnet: '' })
+        this.props.navigation.navigate('Feed')
     }
 
     render() {
