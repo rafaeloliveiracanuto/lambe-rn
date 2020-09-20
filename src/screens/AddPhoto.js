@@ -119,5 +119,9 @@ const styles = StyleSheet.create({
 //export default AddPhoto
 
 const mapStateToProps = state => {
-    
+    const { user } = state.user
+    return {
+        email: user.email,
+        name: user.name
+    }
 }
