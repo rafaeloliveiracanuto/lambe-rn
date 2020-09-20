@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { connect } from 'react-redux'
+import { addPost } from '../store/actions/Posts'
 import {
     View, 
     Text,
