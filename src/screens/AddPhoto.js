@@ -34,7 +34,16 @@ class AddPhoto extends Component {
     }
 
     save = async () => {
-        Alert.alert('Image added', this.state.comment)
+        this.props.onAddPost({
+            id: Math.random(),
+            nickname: this.props.name,
+            email: this.props.email,
+            image: this.state.image,
+            comments: [{
+                nickname: this.props.name,
+                comment: this.state.comment
+            }]
+        })
     }
 
     render() {
