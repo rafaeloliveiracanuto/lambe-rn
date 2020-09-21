@@ -7,9 +7,9 @@ export const addPost = post => {
     }
 }
 
-export const addComment = comment => {
+export const addComment = payload => {
     return {
         type: ADD_COMMENT,
-        payload: comment
+        payload: payload
     }
 }
