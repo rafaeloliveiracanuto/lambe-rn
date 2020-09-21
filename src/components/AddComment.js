@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import { AddComment } from '../store/actions/Posts'
+import { addComment, AddComment } from '../store/actions/Posts'
 import {
     View,
     Text,
@@ -92,6 +92,9 @@ const mapStateToProps = state => {
 }
 
 const mapDispatchToProps = dispatch => {
-
+    return {
+        onAddComment: comment => dispatch(addComment(payload))
+    }
 }
+
 //export default AddComment
