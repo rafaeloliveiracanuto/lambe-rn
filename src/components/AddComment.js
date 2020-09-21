@@ -97,4 +97,6 @@ const mapDispatchToProps = dispatch => {
     }
 }
 
+export default connect(mapStateToProps, mapDispatchToProps)(AddComment)
+
 //export default AddComment
