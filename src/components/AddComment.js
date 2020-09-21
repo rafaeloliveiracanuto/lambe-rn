@@ -83,4 +83,7 @@ const styles = StyleSheet.create({
     }
 })
 
-export default AddComment
+const mapStateToProps = state => {
+    
+}
+//export default AddComment
