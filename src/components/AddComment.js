@@ -18,7 +18,13 @@ class AddComment extends Component {
     }
 
     handleAddComment = () => {
-        
+        this.props.onAddComment({
+            postId: this.props.postId,
+            comment: {
+                nickname: this.props.name,
+                comment: this.state.comment
+            }
+        })
     }
 
     render() {
