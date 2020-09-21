@@ -91,5 +91,7 @@ const mapStateToProps = state => {
     }
 }
 
-
+const mapDispatchToProps = state => {
+    
+}
 //export default AddComment
