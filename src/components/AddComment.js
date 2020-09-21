@@ -84,6 +84,12 @@ const styles = StyleSheet.create({
 })
 
 const mapStateToProps = state => {
-    
+    const user = state.user
+
+    return {
+        name: user.name
+    }
 }
+
+
 //export default AddComment
