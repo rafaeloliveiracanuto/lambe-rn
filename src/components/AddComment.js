@@ -25,6 +25,8 @@ class AddComment extends Component {
                 comment: this.state.comment
             }
         })
+
+        this.setState({ comment: '', editMode: false })
     }
 
     render() {
